@@ -1,0 +1,30 @@
+.blog {
+	margin-top: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid lightgray;
+}
+
+.blog:first-child {
+	margin-top: 0;
+}
+
+.blog:last-child {
+	border-bottom: none;
+}
+
+.blog a {
+	text-decoration: none;
+}
+
+.blog a:visited {
+	color: #000;
+}
+
+.blogDate {
+	font-size: 0.75rem;
+	margin-top: 0.25rem;
+}
+
+.blogBody {
+	margin: 1rem 0;
+}

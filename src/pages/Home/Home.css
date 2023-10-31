@@ -1,0 +1,6 @@
+.Home {
+	width: 100%;
+	flex-grow: 1;
+	padding: 1rem;
+	background-color: #fff;
+}

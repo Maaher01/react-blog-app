@@ -1,0 +1,41 @@
+.blogDetails {
+	width: 100%;
+	flex-grow: 1;
+	padding: 1rem;
+	background-color: #fff;
+}
+
+.blogDetails p {
+	margin-top: 1rem;
+}
+
+.blogDetails .blog .buttons {
+	display: flex;
+	gap: 15px;
+	margin-top: 2rem;
+}
+
+.blogDetails button.deleteBtn {
+	width: 100px;
+	height: 50px;
+	min-width: 50px;
+	border-radius: 0.25rem;
+	padding: 0.5rem;
+	font-size: 1rem;
+	background-color: red;
+	color: #fff;
+	cursor: pointer;
+}
+
+.blogDetails button.editBtn {
+	width: 100px;
+	height: 50px;
+	min-width: 50px;
+	border-radius: 0.25rem;
+	padding: 0.5rem;
+	font-size: 1rem;
+	background-color: green;
+	color: #fff;
+	cursor: pointer;
+}
+
